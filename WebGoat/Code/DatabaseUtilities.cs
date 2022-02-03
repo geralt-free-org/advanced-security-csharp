@@ -13,6 +13,7 @@ namespace OWASP.WebGoat.NET
 {
 	public class DatabaseUtilities
 	{
+		public string token = "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";
 		private SqliteConnection conn = null;
 		private string GoatDBFile = HttpContext.Current.Server.MapPath ("~/App_Data/") + "goatdb.sqlite";
 			
